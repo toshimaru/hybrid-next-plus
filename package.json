@@ -1,0 +1,22 @@
+{
+    "name": "hybrid-next-plus",
+    "displayName": "vscode-hybrid-next-plus",
+    "description": "Hybrid Next Plus theme for VS Code.",
+    "version": "0.0.1",
+    "publisher": "toshimaru",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hybrid Next Plus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/hybrid-next-plus-color-theme.json"
+            }
+        ]
+    }
+}
