@@ -31,13 +31,25 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#c5c8c6"
+				"foreground": "#81a2be"
+			}
+		},
+		{
+			"name": "Object keys, TS grammar specific",
+			"scope": [
+				"meta.object-literal.key",
+			],
+			"settings": {
+				"foreground": "#81a2be"
 			}
 		},
 		{
