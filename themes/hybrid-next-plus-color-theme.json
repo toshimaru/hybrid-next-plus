@@ -86,7 +86,6 @@
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.definition.tag.html",
@@ -95,7 +94,7 @@
 				"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#f0c674"
+				"foreground": "#de935f"
 			}
 		},
 		{
