@@ -4,15 +4,19 @@
 	"name": "Hybrid Next Plus",
 	"type": "dark",
 	"colors": {
-		"activityBarBadge.background": "#007acc",
-		"editor.background": "#242e33",
+		"activityBarBadge.background": "#007ACC",
+		"editor.background": "#1E1E1E",
 		"editor.foreground": "#c5c8c6",
+		"editor.inactiveSelectionBackground": "#3A3D41",
 		"editor.lineHighlightBackground": "#99dbff0a",
 		"editor.selectionBackground": "#99dbff26",
+		"editor.selectionHighlightBackground": "#ADD6FF26",
 		"editorCursor.foreground": "#8abeb7",
+		"editorIndentGuide.activeBackground": "#707070",
+		"editorIndentGuide.background": "#404040",
 		"editorWhitespace.foreground": "#c5c8c626",
-		"sideBar.background": "#242e33",
-		"sideBarTitle.foreground": "#c5c8c6",
+		"list.dropBackground": "#383B3D",
+		"sideBarTitle.foreground": "#BBBBBB",
 	},
 	"tokenColors": [
 		{
