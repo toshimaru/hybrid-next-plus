@@ -121,16 +121,24 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#81a2be"
+			}
+		},
+		{
+			"name": "Special Method",
+			"scope": [
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#b294bb"
 			}
 		},
 		{
