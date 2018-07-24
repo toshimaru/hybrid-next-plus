@@ -18,7 +18,9 @@
 		"editorWhitespace.foreground": "#c5c8c626",
 		"list.activeSelectionBackground": "#4796c2",
 		"list.dropBackground": "#383B3D",
+		"list.inactiveSelectionBackground": "#344149",
 		"sideBar.background": "#1d2428",
+		"sideBar.foreground": "#c5c8c6",
 		"sideBarTitle.foreground": "#BBBBBB",
 	},
 	"tokenColors": [
