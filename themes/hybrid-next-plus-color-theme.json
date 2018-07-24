@@ -175,10 +175,18 @@
 			}
 		},
 		{
-			"name": "Number, Constant, Tag Attribute, Embedded",
+			"name": "Number, Constant",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
+			],
+			"settings": {
+				"foreground": "#8ABEB7"
+			}
+		},
+		{
+			"name": "Tag Attribute, Embedded",
+			"scope": [
 				"support.constant",
 				"constant.character",
 				"constant.escape",
@@ -269,8 +277,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
+				"foreground": "#81a2be"
 			}
 		},
 		{
