@@ -1,12 +1,21 @@
 {
     "name": "hybrid-next-plus",
-    "displayName": "vscode-hybrid-next-plus",
+    "displayName": "Hybrid Next Plus",
     "description": "Hybrid Next Plus theme for VS Code.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "toshimaru",
     "engines": {
         "vscode": "^1.25.0"
     },
+    "repository": {
+        "url": "https://github.com/toshimaru/hybrid-next-plus"
+    },
+    "author": {
+        "name": "toshimaru",
+        "email": "me@toshimaru.net",
+        "url": "https://toshimaru.net/"
+    },
+    "license": "MIT",
     "categories": [
         "Themes"
     ],
