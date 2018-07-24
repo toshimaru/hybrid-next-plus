@@ -103,13 +103,29 @@
 			"scope": [
 				"meta.tag",
 				"punctuation.definition.tag",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
 			],
 			"settings": {
 				"foreground": "#de935f"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#f0c674"
+			}
+		},
+		{
+			"name": "HTML Tag",
+			"scope": [
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+			],
+			"settings": {
+				"foreground": "#6c7a80"
 			}
 		},
 		{
@@ -131,7 +147,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#81a2be"
+				"foreground": "#de935f"
 			}
 		},
 		{
@@ -317,7 +333,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#de935f"
+				"foreground": "#fa6b04"
 			}
 		},
 		{
