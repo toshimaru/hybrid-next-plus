@@ -463,18 +463,10 @@
 			}
 		},
 		{
-			"name": "Markdown - Line Break",
-			"scope": [
-				"text.html.markdown meta.dummy.line-break"
-			],
-			"settings": {
-			}
-		},
-		{
 			"name": "Heading (Markdown)",
 			"scope": "entity.name.section.markdown",
 			"settings": {
-				"foreground": "#b294bb"
+				"foreground": "#B5BD68"
 			}
 		},
 		{
@@ -563,19 +555,14 @@
 			}
 		},
 		{
-			"name": "Unordered Lists (Markdown)",
-			"scope": "markup.list.unnumbered.markdown",
+			"name": "Unordered Lists. Ordered Lists (Markdown)",
+			"scope": [
+				"markup.list.unnumbered.markdown",
+				"markup.list.numbered.markdown",
+			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b5bd68dd"
-			}
-		},
-		{
-			"name": "Ordered Lists (Markdown)",
-			"scope": "markup.list.numbered.markdown",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#b5bd68aa"
+				"foreground": "#c5c8c6"
 			}
 		},
 		{
@@ -584,7 +571,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#b5bd68"
+				"foreground": "#b294bb"
 			}
 		},
 		{
@@ -609,7 +596,7 @@
 			"name": "Fenced Code Block (Markdown)",
 			"scope": "fenced_code.block.language",
 			"settings": {
-				"foreground": "#cc6666"
+				"foreground": "#8ABEB7"
 			}
 		},
 		{
