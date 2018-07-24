@@ -75,10 +75,18 @@
 			}
 		},
 		{
+			"name": "Type",
+			"scope": [
+				"storage.type",
+			],
+			"settings": {
+				"foreground": "#b294bb"
+			}
+		},
+		{
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
@@ -273,7 +281,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#c5c8c6"
 			}
 		},
 		{
@@ -326,28 +334,9 @@
 			}
 		},
 		{
-			"name": "HTML Attributes",
+			"name": "CSS Classes and ID's",
 			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#fa6b04"
-			}
-		},
-		{
-			"name": "CSS Classes",
-			"scope": [
-				"entity.other.attribute-name.class"
-			],
-			"settings": {
-				"foreground": "#de935f"
-			}
-		},
-		{
-			"name": "CSS ID's",
-			"scope": [
+				"entity.other.attribute-name.class",
 				"source.sass keyword.control"
 			],
 			"settings": {
