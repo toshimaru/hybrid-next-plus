@@ -5,7 +5,7 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#161c1f",
-		"activityBarBadge.background": "#007ACC",
+		"activityBarBadge.background": "#4796c2",
 		"editor.background": "#232c31",
 		"editor.foreground": "#c5c8c6",
 		"editor.inactiveSelectionBackground": "#3A3D41",
@@ -17,11 +17,13 @@
 		"editorIndentGuide.background": "#404040",
 		"editorWhitespace.foreground": "#c5c8c626",
 		"list.activeSelectionBackground": "#4796c2",
+		"list.focusBackground": "#4796c266",
 		"list.dropBackground": "#383B3D",
 		"list.inactiveSelectionBackground": "#344149",
 		"sideBar.background": "#1d2428",
 		"sideBar.foreground": "#c5c8c6",
 		"sideBarTitle.foreground": "#BBBBBB",
+		"statusBar.background": "#1d2428",
 	},
 	"tokenColors": [
 		{
