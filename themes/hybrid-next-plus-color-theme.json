@@ -684,6 +684,13 @@
 			"settings": {
 				"foreground": "#b267e6"
 			}
+		},
+		{
+			"name": "[YAML] Entity Name Tag",
+			"scope": "source.yaml entity.name.tag",
+			"settings": {
+				"foreground": "#81a2be"
+			}
 		}
 	]
 }
