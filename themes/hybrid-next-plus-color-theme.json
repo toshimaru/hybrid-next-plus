@@ -454,28 +454,19 @@
 			}
 		},
 		{
-			"name": "Markdown - Markup Raw Inline",
+			"name": "Markup Inline",
 			"scope": [
-				"text.html.markdown markup.inline.raw.markdown"
+				"markup.inline.raw"
 			],
 			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "Markdown - Markup Raw Inline Punctuation",
-			"scope": [
-				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
-			],
-			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#b5bd68"
 			}
 		},
 		{
 			"name": "Heading (Markdown)",
 			"scope": "entity.name.section.markdown",
 			"settings": {
-				"foreground": "#B5BD68"
+				"foreground": "#de935f"
 			}
 		},
 		{
