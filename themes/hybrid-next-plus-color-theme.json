@@ -101,11 +101,12 @@
 		{
 			"name": "Keyword, Type",
 			"scope": [
-				"storage.type",
-				"keyword.control",
-				"keyword.other.template",
-				"keyword.other.substitution",
 				"constant.other.color",
+				"keyword.control",
+				"keyword.other.special-method",
+				"keyword.other.substitution",
+				"keyword.other.template",
+				"storage.type",
 			],
 			"settings": {
 				"foreground": "#b294bb"
@@ -160,7 +161,6 @@
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
-				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#cc6666"
