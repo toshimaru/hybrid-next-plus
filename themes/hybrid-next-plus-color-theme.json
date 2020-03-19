@@ -33,6 +33,7 @@
 		"sideBar.foreground": "#c5c8c6",
 		"sideBarTitle.foreground": "#BBBBBB",
 		"statusBar.background": "#1d2428",
+		"tab.activeBorder": "#4796c2",
 	},
 	"tokenColors": [
 		{
@@ -49,7 +50,7 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
-				"string constant.other.placeholder",
+				"support.function",
 				"variable",
 			],
 			"settings": {
@@ -100,11 +101,12 @@
 		{
 			"name": "Keyword, Type",
 			"scope": [
-				"storage.type",
-				"keyword.control",
-				"keyword.other.template",
-				"keyword.other.substitution",
 				"constant.other.color",
+				"keyword.control",
+				"keyword.other.special-method",
+				"keyword.other.substitution",
+				"keyword.other.template",
+				"storage.type",
 			],
 			"settings": {
 				"foreground": "#b294bb"
@@ -158,9 +160,7 @@
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
-				"support.function",
 				"variable.function",
-				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#cc6666"
