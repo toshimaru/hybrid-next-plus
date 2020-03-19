@@ -88,16 +88,7 @@
 			}
 		},
 		{
-			"name": "Type",
-			"scope": [
-				"storage.type",
-			],
-			"settings": {
-				"foreground": "#b294bb"
-			}
-		},
-		{
-			"name": "Keyword, Storage",
+			"name": "Keyword",
 			"scope": [
 				"keyword",
 				"storage.modifier"
@@ -107,9 +98,9 @@
 			}
 		},
 		{
-
-			"name": "Keyword",
+			"name": "Keyword, Type",
 			"scope": [
+				"storage.type",
 				"keyword.control",
 				"keyword.other.template",
 				"keyword.other.substitution",
