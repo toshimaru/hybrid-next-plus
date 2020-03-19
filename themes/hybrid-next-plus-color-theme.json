@@ -6,6 +6,8 @@
 	"colors": {
 		"activityBar.background": "#161c1f",
 		"activityBarBadge.background": "#4796c2",
+		"badge.background": "#4796c2",
+		"badge.foreground": "#c5c8c6",
 		"editor.background": "#232c31",
 		"editor.foreground": "#c5c8c6",
 		"editor.inactiveSelectionBackground": "#3A3D41",
