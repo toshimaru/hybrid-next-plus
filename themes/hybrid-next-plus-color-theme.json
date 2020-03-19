@@ -33,6 +33,7 @@
 		"sideBar.foreground": "#c5c8c6",
 		"sideBarTitle.foreground": "#BBBBBB",
 		"statusBar.background": "#1d2428",
+		"tab.activeBorder": "#4796c2",
 	},
 	"tokenColors": [
 		{
