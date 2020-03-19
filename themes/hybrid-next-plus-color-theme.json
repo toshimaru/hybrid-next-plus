@@ -69,12 +69,12 @@
 			}
 		},
 		{
-			"name": "Colors",
+			"name": "Object keys, TS grammar specific",
 			"scope": [
-				"constant.other.color"
+				"meta.object-literal.key",
 			],
 			"settings": {
-				"foreground": "#c5c8c6"
+				"foreground": "#81a2be"
 			}
 		},
 		{
@@ -115,18 +115,10 @@
 			"scope": [
 				"meta.tag",
 				"punctuation.definition.tag",
-			],
-			"settings": {
-				"foreground": "#de935f"
-			}
-		},
-		{
-			"name": "Operator, Misc",
-			"scope": [
 				"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#f0c674"
+				"foreground": "#de935f"
 			}
 		},
 		{
@@ -175,10 +167,11 @@
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
+			"name": "Block Level Variables, Other Variable, String Link",
 			"scope": [
+				"meta.block variable.other",
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
 			],
 			"settings": {
 				"foreground": "#81a2be"
@@ -432,7 +425,7 @@
 				"markup.strike"
 			],
 			"settings": {
-				"fontStyle": "strike",
+				"foreground": "#CC6666"
 			}
 		},
 		{
@@ -529,12 +522,12 @@
 		{
 			"name": "Punctuation (Markdown)",
 			"scope": [
-				"punctuation.definition.heading.markdown",
-				"beginning.punctuation.definition.quote.markdown",
-				"punctuation.definition.markdown",
-				"punctuation.definition.italic.markdown",
-				"punctuation.definition.bold.markdown",
 				"beginning.punctuation.definition.list.markdown",
+				"beginning.punctuation.definition.quote.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.italic.markdown",
+				"punctuation.definition.markdown",
 				"punctuation.definition.raw.markdown"
 			],
 			"settings": {
@@ -584,7 +577,7 @@
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#f44747"
+				"foreground": "#FF5370"
 			}
 		},
 		{
