@@ -165,7 +165,6 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
 			],
 			"settings": {
 				"foreground": "#de935f"
@@ -235,15 +234,6 @@
 			}
 		},
 		{
-			"name": "Function Argument",
-			"scope": [
-				"variable.parameter",
-			],
-			"settings": {
-				"foreground": "#de935fbb"
-			}
-		},
-		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"string",
@@ -307,39 +297,9 @@
 			}
 		},
 		{
-			"name": "entity.name.method.js",
-			"scope": [
-				"entity.name.method.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "meta.method.js",
-			"scope": [
-				"meta.class-method.js entity.name.function.js",
-				"variable.function.constructor"
-			],
-			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
 			"name": "Attributes",
 			"scope": [
 				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "CSS Classes and ID's",
-			"scope": [
-				"entity.other.attribute-name.class",
-				"source.sass keyword.control"
 			],
 			"settings": {
 				"foreground": "#81a2be"
@@ -399,27 +359,6 @@
 			],
 			"settings": {
 				"fontStyle": "underline"
-			}
-		},
-		{
-			"name": "Decorators",
-			"scope": [
-				"tag.decorator.js entity.name.tag.js",
-				"tag.decorator.js punctuation.definition.tag.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "ES7 Bind Operator",
-			"scope": [
-				"source.js constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FF5370"
 			}
 		},
 		{
