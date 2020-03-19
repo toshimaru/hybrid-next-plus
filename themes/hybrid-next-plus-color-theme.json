@@ -259,28 +259,17 @@
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class, Support, Entity Types",
 			"scope": [
 				"entity.name",
-				"support.type",
-				"support.class",
-				"support.orther.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"meta.use.php",
+				"support.class",
+				"support.other.namespace.php",
+				"support.type",
 			],
 			"settings": {
 				"foreground": "#de935f"
-			}
-		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#B2CCD6"
 			}
 		},
 		{
