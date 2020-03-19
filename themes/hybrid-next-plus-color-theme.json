@@ -49,7 +49,7 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
-				"string constant.other.placeholder",
+				"support.function",
 				"variable",
 			],
 			"settings": {
@@ -158,7 +158,6 @@
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
-				"support.function",
 				"variable.function",
 				"keyword.other.special-method"
 			],
