@@ -1,4 +1,15 @@
-# Change Log
+# Changelog
+
+## v0.2.1
+
+- [ ] Update screenshot
+- [ ] License
+
+## v0.2.0
+
+- Style Update
+- Update Changelog
+- Add funding (You can support [me on GitHub](https://github.com/toshimaru)❗️)
 
 ## v0.1.0
 
