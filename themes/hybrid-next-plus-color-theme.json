@@ -166,29 +166,12 @@
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
-				"variable.function",
 				"support.function",
-			],
-			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "Special Method",
-			"scope": [
+				"variable.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#b294bb"
-			}
-		},
-		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#81a2be"
+				"foreground": "#cc6666"
 			}
 		},
 		{
