@@ -49,23 +49,23 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
-				"variable",
 				"string constant.other.placeholder",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable"
+				"variable",
 			],
 			"settings": {
 				"foreground": "#81a2be"
 			}
 		},
 		{
-			"name": "Object keys, TS grammar specific",
+			"name": "Function Argument",
 			"scope": [
-				"meta.object-literal.key",
+				"entity.name.variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"variable.parameter",
 			],
 			"settings": {
-				"foreground": "#81a2be"
+				"foreground": "#C5C8C6"
 			}
 		},
 		{
