@@ -379,7 +379,7 @@
 			}
 		},
 		{
-			"name": "Heading (Markdown)",
+			"name": "Markdown Heading",
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"foreground": "#de935f"
@@ -399,26 +399,10 @@
 			"name": "Markup - Bold",
 			"scope": [
 				"markup.bold",
-				"markup.bold string"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "Markup - Bold-Italic",
-			"scope": [
-				"markup.bold markup.italic",
-				"markup.italic markup.bold",
-				"markup.quote markup.bold",
-				"markup.bold markup.italic string",
-				"markup.italic markup.bold string",
-				"markup.quote markup.bold string"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
 			}
 		},
 		{
@@ -514,18 +498,10 @@
 			}
 		},
 		{
-			"name": "Markdown - Raw Block Fenced",
+			"name": "Markdown - Raw Block Fenced, Fenced Bode Bloc",
 			"scope": [
-				"markup.raw.block.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#00000050"
-			}
-		},
-		{
-			"name": "Markdown - Fenced Bode Block",
-			"scope": [
-				"punctuation.definition.fenced.markdown"
+				"markup.raw.block.fenced.markdown",
+				"punctuation.definition.fenced.markdown",
 			],
 			"settings": {
 				"foreground": "#00000050"
