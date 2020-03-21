@@ -71,6 +71,24 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": [
+				"meta.template.expression",
+				"punctuation.accessor",
+				"punctuation.definition.array",
+				"punctuation.definition.block",
+				"punctuation.definition.function-parameters",
+				"punctuation.definition.method-parameters",
+				"punctuation.definition.parameters",
+				"punctuation.definition.variable",
+				"punctuation.section",
+				"punctuation.separator",
+			],
+			"settings": {
+				"foreground": "#C5C8C6"
+			}
+		},
+		{
 			"name": "Object keys, TS grammar specific",
 			"scope": [
 				"meta.object-literal.key",
@@ -136,7 +154,7 @@
 			}
 		},
 		{
-			"name": "Separator (Properties/(S)CSS/JSON/YAML)",
+			"name": "Separator (Properties for CSS/JSON/YAML)",
 			"scope": [
 				"punctuation.separator.inheritance.php",
 				"punctuation.separator.key-value",
