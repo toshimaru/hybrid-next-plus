@@ -4,7 +4,9 @@
 
 Hybrid Next Plus Theme for VS Code.
 
-![sample image](images/hybrid.png)
+![screenshot 1](images/hybrid.png)
+
+![screenshot 2](images/hybrid-with-palette.png)
 
 ## Inspired Color Themes
 

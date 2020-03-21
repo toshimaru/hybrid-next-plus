@@ -2,8 +2,8 @@
 
 ## v0.2.1
 
-- [ ] Update screenshot
-- [ ] License
+- Add screenshot
+- Add License (MIT)
 
 ## v0.2.0
 
