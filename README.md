@@ -8,6 +8,13 @@ Hybrid Next Plus Theme for VS Code.
 
 ![screenshot 2](images/hybrid-with-palette.png)
 
+## Colors
+
+| | |
+| --- | ---- |
+| background | ![#232c31](https://placehold.it/15/232c31/000000?text=+) `#232c31` |
+| foreground | ![#c5c8c6](https://placehold.it/15/c5c8c6/000000?text=+) `#c5c8c6` |
+
 ## Inspired Color Themes
 
 ### UI Color Theme
