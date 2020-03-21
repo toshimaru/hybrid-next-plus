@@ -1,5 +1,3 @@
-// foreground #c5c8c6
-// background #232c31
 {
 	"name": "Hybrid Next Plus",
 	"type": "dark",
@@ -595,6 +593,12 @@
 			"settings": {
 				"foreground": "#81a2be"
 			}
-		}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 	]
 }
