@@ -442,17 +442,6 @@
 			}
 		},
 		{
-			"name": "Unordered Lists. Ordered Lists (Markdown)",
-			"scope": [
-				"markup.list.unnumbered.markdown",
-				"markup.list.numbered.markdown",
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#c5c8c6"
-			}
-		},
-		{
 			"name": "Markdown - Link",
 			"scope": [
 				"string.other.link.title.markdown"
