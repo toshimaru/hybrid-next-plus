@@ -144,18 +144,18 @@
 			}
 		},
 		{
-			"name": "HTML Tag",
+			"name": "HTML - square bracket",
 			"scope": [
-				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.html",
 			],
 			"settings": {
 				"foreground": "#6c7a80"
 			}
 		},
 		{
-			"name": "Separator (Properties for CSS/JSON/YAML)",
+			"name": "Separator (Properties/(S)CSS/JSON/YAML)",
 			"scope": [
 				"punctuation.separator.inheritance.php",
 				"punctuation.separator.key-value",
