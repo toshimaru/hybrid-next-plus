@@ -13,6 +13,7 @@
 		"editor.selectionBackground": "#6464647d",
 		"editor.selectionHighlightBackground": "#ADD6FF26",
 		"editorCursor.foreground": "#8abeb7",
+		"editorGroupHeader.tabsBackground": "#1d2428",
 		"editorGutter.addedBackground": "#b5bd68",
 		"editorGutter.deletedBackground": "#CC6666",
 		"editorGutter.modifiedBackground": "#f0c674",
