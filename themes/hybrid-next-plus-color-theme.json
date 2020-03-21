@@ -133,8 +133,10 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Tag, Operator",
 			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.section.embedded",
@@ -163,16 +165,6 @@
 			],
 			"settings": {
 				"foreground": "#c5c8c6"
-			}
-		},
-		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-			],
-			"settings": {
-				"foreground": "#de935f"
 			}
 		},
 		{
