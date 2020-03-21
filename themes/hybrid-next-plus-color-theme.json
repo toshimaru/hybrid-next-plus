@@ -215,13 +215,12 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
-				"constant.other.symbol",
 				"constant.other.key",
+				"constant.other.symbol",
 				"entity.other.inherited-class",
 				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"string",
 			],
 			"settings": {
 				"foreground": "#b5bd68"
@@ -231,7 +230,6 @@
 			"name": "Class, Support, Entity Types",
 			"scope": [
 				"entity.name",
-				"markup.changed.git_gutter",
 				"meta.use.php",
 				"support.class",
 				"support.other.namespace.php",
@@ -508,15 +506,16 @@
 			}
 		},
 		{
-			"name": "Punctuation (Markdown)",
+			"name": "Markdown - Punctuation",
 			"scope": [
 				"beginning.punctuation.definition.list.markdown",
 				"beginning.punctuation.definition.quote.markdown",
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.heading.markdown",
 				"punctuation.definition.italic.markdown",
+				"punctuation.definition.list.begin.markdown",
 				"punctuation.definition.markdown",
-				"punctuation.definition.raw.markdown"
+				"punctuation.definition.raw.markdown",
 			],
 			"settings": {
 				"foreground": "#6c7a80"
