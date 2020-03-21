@@ -10,10 +10,15 @@ Hybrid Next Plus Theme for VS Code.
 
 ## Colors
 
-| | |
-| --- | ---- |
+| color | hex color code |
+| --- | --- |
 | background | ![#232c31](https://placehold.it/15/232c31/000000?text=+) `#232c31` |
 | foreground | ![#c5c8c6](https://placehold.it/15/c5c8c6/000000?text=+) `#c5c8c6` |
+| cyan | ![#4796c2](https://placehold.it/15/4796c2/000000?text=+) `#4796c2` |
+| red | ![#cc6666](https://placehold.it/15/cc6666/000000?text=+) `#cc6666` |
+| green | ![#b5bd68](https://placehold.it/15/b5bd68/000000?text=+) `#b5bd68` | 
+| orange | ![#de935f](https://placehold.it/15/de935f/000000?text=+) `#de935f` | 
+| yellow | ![#f0c674](https://placehold.it/15/f0c674/000000?text=+) `#f0c674` | 
 
 ## Inspired Color Themes
 
