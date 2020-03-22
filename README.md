@@ -1,3 +1,5 @@
+![icon](images/icon.png)
+
 [![Version](https://vsmarketplacebadge.apphb.com/version/toshimaru.hybrid-next-plus.svg)](https://marketplace.visualstudio.com/items?itemName=toshimaru.hybrid-next-plus)
 
 # Hybrid Next Plus
