@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.3.1
+
+- Update screenshot
+- Set `titleBar.activeBackground`
+
 ## v0.3.0
 
 - Add color list
