@@ -14,7 +14,8 @@
     },
     "homepage": "https://github.com/toshimaru/hybrid-next-plus",
     "repository": {
-        "url": "https://github.com/toshimaru/hybrid-next-plus"
+        "type": "git",
+        "url": "https://github.com/toshimaru/hybrid-next-plus.git"
     },
     "bugs": {
         "url": "https://github.com/toshimaru/hybrid-next-plus/issues"
@@ -23,6 +24,11 @@
     "categories": [
         "Themes"
     ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#232c31",
+        "theme": "dark"
+    },
     "keywords": ["hybrid"],
     "contributes": {
         "themes": [
