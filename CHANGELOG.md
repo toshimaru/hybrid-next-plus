@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.0
+
+- Add color list
+- Style Changes
+  - Set `tabsBackground`
+  - Change function color (red → yellow)
+  - Remove Bold-Italic style, `markup.list` style
+  - Specify some `punctuation` color
+  - Define `strong` style
+
 ## v0.2.1
 
 - Add screenshot
