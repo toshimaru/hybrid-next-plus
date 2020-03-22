@@ -283,33 +283,6 @@
 			}
 		},
 		{
-			"name": "Inserted",
-			"scope": [
-				"markup.inserted"
-			],
-			"settings": {
-				"foreground": "#b5bd68"
-			}
-		},
-		{
-			"name": "Deleted",
-			"scope": [
-				"markup.deleted"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Changed",
-			"scope": [
-				"markup.changed"
-			],
-			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
 			"name": "Regular Expressions",
 			"scope": [
 				"string.regexp"
@@ -442,6 +415,30 @@
 			}
 		},
 		{
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#b5bd68"
+			}
+		},
+		{
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#cc6666"
+			}
+		},
+		{
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#f0c674"
+			}
+		},
+		{
 			"name": "Markdown - Link",
 			"scope": [
 				"string.other.link.title.markdown"
@@ -541,7 +538,7 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#6796e6"
+				"foreground": "#4796c2"
 			}
 		},
 		{
