@@ -24,6 +24,7 @@
 		"editorOverviewRuler.deletedForeground": "#CC6666",
 		"editorOverviewRuler.modifiedForeground": "#f0c674",
 		"editorWhitespace.foreground": "#c5c8c626",
+		"editorWidget.background": "#1d2428",
 		"errorForeground": "#CC6666",
 		"focusBorder": "#4796c2",
 		"list.activeSelectionBackground": "#4796c2",
