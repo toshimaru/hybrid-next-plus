@@ -35,6 +35,7 @@
 		"minimap.findMatchHighlight": "#4796c290",
 		"panel.background": "#1d2428",
 		"panel.border": "#161c1f",
+		"panelTitle.activeBorder": "#4796c2",
 		"sideBar.background": "#1d2428",
 		"sideBar.border": "#161c1f",
 		"sideBar.foreground": "#c5c8c6",
