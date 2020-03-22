@@ -2,7 +2,7 @@
 
 ## v0.3.0
 
-- Style Changes (#8)
+- Style Changes ( #8 )
   - TODO
 
 ## v0.2.1
