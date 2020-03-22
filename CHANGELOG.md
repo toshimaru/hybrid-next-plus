@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.4.0
+
+- Add theme icon
+- Style Changes
+  - Update search result colors (`findMatchBackground`, `findMatchBorder`, `findMatchHighlightBackground`, `findMatchHighlight`)
+  - Set `tab.activeBorderTop`, `panelTitle.activeBorder`, `focusBorder`, `errorForeground`, `editorWidget.background`
+
 ## v0.3.1
 
 - Update screenshot
