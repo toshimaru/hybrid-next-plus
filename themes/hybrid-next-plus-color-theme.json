@@ -1,5 +1,3 @@
-// foreground #c5c8c6
-// background #232c31
 {
 	"name": "Hybrid Next Plus",
 	"type": "dark",
@@ -15,6 +13,7 @@
 		"editor.selectionBackground": "#6464647d",
 		"editor.selectionHighlightBackground": "#ADD6FF26",
 		"editorCursor.foreground": "#8abeb7",
+		"editorGroupHeader.tabsBackground": "#1d2428",
 		"editorGutter.addedBackground": "#b5bd68",
 		"editorGutter.deletedBackground": "#CC6666",
 		"editorGutter.modifiedBackground": "#f0c674",
@@ -73,6 +72,24 @@
 			}
 		},
 		{
+			"name": "Punctuation",
+			"scope": [
+				"meta.template.expression",
+				"punctuation.accessor",
+				"punctuation.definition.array",
+				"punctuation.definition.block",
+				"punctuation.definition.function-parameters",
+				"punctuation.definition.method-parameters",
+				"punctuation.definition.parameters",
+				"punctuation.definition.variable",
+				"punctuation.section",
+				"punctuation.separator",
+			],
+			"settings": {
+				"foreground": "#C5C8C6"
+			}
+		},
+		{
 			"name": "Object keys, TS grammar specific",
 			"scope": [
 				"meta.object-literal.key",
@@ -116,8 +133,10 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Tag, Operator",
 			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.section.embedded",
@@ -127,11 +146,11 @@
 			}
 		},
 		{
-			"name": "HTML Tag",
+			"name": "HTML - square bracket",
 			"scope": [
-				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.html",
 			],
 			"settings": {
 				"foreground": "#6c7a80"
@@ -149,16 +168,6 @@
 			}
 		},
 		{
-			"name": "Tag",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-			],
-			"settings": {
-				"foreground": "#de935f"
-			}
-		},
-		{
 			"name": "Function",
 			"scope": [
 				"entity.name.function",
@@ -166,7 +175,7 @@
 				"variable.function",
 			],
 			"settings": {
-				"foreground": "#cc6666"
+				"foreground": "#F0C674"
 			}
 		},
 		{
@@ -206,13 +215,12 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
-				"constant.other.symbol",
 				"constant.other.key",
+				"constant.other.symbol",
 				"entity.other.inherited-class",
 				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"string",
 			],
 			"settings": {
 				"foreground": "#b5bd68"
@@ -222,7 +230,6 @@
 			"name": "Class, Support, Entity Types",
 			"scope": [
 				"entity.name",
-				"markup.changed.git_gutter",
 				"meta.use.php",
 				"support.class",
 				"support.other.namespace.php",
@@ -370,7 +377,7 @@
 			}
 		},
 		{
-			"name": "Heading (Markdown)",
+			"name": "Markdown Heading",
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"foreground": "#de935f"
@@ -390,26 +397,10 @@
 			"name": "Markup - Bold",
 			"scope": [
 				"markup.bold",
-				"markup.bold string"
 			],
 			"settings": {
 				"fontStyle": "bold",
 				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "Markup - Bold-Italic",
-			"scope": [
-				"markup.bold markup.italic",
-				"markup.italic markup.bold",
-				"markup.quote markup.bold",
-				"markup.bold markup.italic string",
-				"markup.italic markup.bold string",
-				"markup.quote markup.bold string"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
 			}
 		},
 		{
@@ -448,17 +439,6 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#b5bd6888"
-			}
-		},
-		{
-			"name": "Unordered Lists. Ordered Lists (Markdown)",
-			"scope": [
-				"markup.list.unnumbered.markdown",
-				"markup.list.numbered.markdown",
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#c5c8c6"
 			}
 		},
 		{
@@ -505,33 +485,26 @@
 			}
 		},
 		{
-			"name": "Markdown - Raw Block Fenced",
+			"name": "Markdown - Raw Block Fenced, Fenced Bode Bloc",
 			"scope": [
-				"markup.raw.block.fenced.markdown"
+				"markup.raw.block.fenced.markdown",
+				"punctuation.definition.fenced.markdown",
 			],
 			"settings": {
 				"foreground": "#00000050"
 			}
 		},
 		{
-			"name": "Markdown - Fenced Bode Block",
-			"scope": [
-				"punctuation.definition.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#00000050"
-			}
-		},
-		{
-			"name": "Punctuation (Markdown)",
+			"name": "Markdown - Punctuation",
 			"scope": [
 				"beginning.punctuation.definition.list.markdown",
 				"beginning.punctuation.definition.quote.markdown",
 				"punctuation.definition.bold.markdown",
 				"punctuation.definition.heading.markdown",
 				"punctuation.definition.italic.markdown",
+				"punctuation.definition.list.begin.markdown",
 				"punctuation.definition.markdown",
-				"punctuation.definition.raw.markdown"
+				"punctuation.definition.raw.markdown",
 			],
 			"settings": {
 				"foreground": "#6c7a80"
@@ -595,6 +568,12 @@
 			"settings": {
 				"foreground": "#81a2be"
 			}
-		}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
 	]
 }
