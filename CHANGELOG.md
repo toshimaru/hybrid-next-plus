@@ -2,8 +2,13 @@
 
 ## v0.3.0
 
-- Style Changes ( #8 )
-  - TODO
+- Add color list
+- Style Changes
+  - Set `tabsBackground`
+  - Change function color (red → yellow)
+  - Remove Bold-Italic style, `markup.list` style
+  - Specify some `punctuation` color
+  - Define `strong` style
 
 ## v0.2.1
 
