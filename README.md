@@ -33,3 +33,7 @@ Hybrid Next Plus Theme for VS Code.
 - [atom-hybrid-next](https://github.com/kaicataldo/hybrid-next-syntax)
 - [vscode-hybrid-next](https://github.com/wyze/vscode-hybrid-next/)
 - [Base16 Tomorrow](https://github.com/o4x/base16-tomorrow-vscode)
+
+## Reference
+
+[Theme Color | Visual Studio Code Extension API](https://code.visualstudio.com/api/references/theme-color)
