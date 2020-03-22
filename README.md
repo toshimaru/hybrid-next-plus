@@ -1,4 +1,6 @@
-![icon](images/icon.png)
+<p align="center">
+  <img src="images/icon.png" alt="icon image">
+</p>
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/toshimaru.hybrid-next-plus.svg)](https://marketplace.visualstudio.com/items?itemName=toshimaru.hybrid-next-plus)
 
@@ -14,8 +16,8 @@ Hybrid Next Plus Theme for VS Code.
 
 | color | hex color code |
 | --- | --- |
-| background | ![#232c31](https://placehold.it/15/232c31/000000?text=+) `#232c31` |
-| foreground | ![#c5c8c6](https://placehold.it/15/c5c8c6/000000?text=+) `#c5c8c6` |
+| black (background) | ![#232c31](https://placehold.it/15/232c31/000000?text=+) `#232c31` |
+| white (foreground) | ![#c5c8c6](https://placehold.it/15/c5c8c6/000000?text=+) `#c5c8c6` |
 | cyan | ![#4796c2](https://placehold.it/15/4796c2/000000?text=+) `#4796c2` |
 | orange | ![#de935f](https://placehold.it/15/de935f/000000?text=+) `#de935f` | 
 | yellow | ![#f0c674](https://placehold.it/15/f0c674/000000?text=+) `#f0c674` | 
