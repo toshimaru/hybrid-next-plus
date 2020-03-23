@@ -31,7 +31,7 @@
 		"focusBorder": "#4796c2",
 		"list.activeSelectionBackground": "#4796c2",
 		"list.dropBackground": "#4796c2",
-		"list.focusBackground": "#4796c299",
+		"list.focusBackground": "#4796c266",
 		"list.focusForeground": "#d5dde1",
 		"list.highlightForeground": "#4796c2",
 		"list.inactiveSelectionBackground": "#344149",
@@ -62,18 +62,9 @@
 			}
 		},
 		{
-			"name": "Variable and parameter name",
+			"name": "Variable, Function Argument",
 			"scope": [
-				"support.function",
 				"variable",
-			],
-			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "Function Argument",
-			"scope": [
 				"entity.name.variable",
 				"meta.definition.variable.name",
 				"support.variable",
@@ -88,14 +79,16 @@
 			"scope": [
 				"meta.template.expression",
 				"punctuation.accessor",
-				"punctuation.definition.array",
-				"punctuation.definition.block",
-				"punctuation.definition.function-parameters",
-				"punctuation.definition.method-parameters",
-				"punctuation.definition.parameters",
-				"punctuation.definition.variable",
+				"punctuation.definition",
 				"punctuation.section",
 				"punctuation.separator",
+				// "punctuation.definition.dictionary",
+				// "punctuation.definition.array",
+				// "punctuation.definition.block",
+				// "punctuation.definition.function-parameters",
+				// "punctuation.definition.method-parameters",
+				// "punctuation.definition.parameters",
+				// "punctuation.definition.variable",
 			],
 			"settings": {
 				"foreground": "#C5C8C6"
@@ -145,6 +138,14 @@
 			}
 		},
 		{
+			"scope": [
+				"variable.other.constant",
+			],
+			"settings": {
+				"foreground": "#F0C674"
+			}
+		},
+		{
 			"name": "Tag, Operator",
 			"scope": [
 				"entity.name.tag",
@@ -180,14 +181,16 @@
 			}
 		},
 		{
-			"name": "Function",
+			"name": "Function, Language methods",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
+				"support.function",
 				"variable.function",
+				"variable.language",
 			],
 			"settings": {
-				"foreground": "#F0C674"
+				"foreground": "#81a2be"
 			}
 		},
 		{
@@ -274,15 +277,6 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"foreground": "#81a2be"
 			}
 		},
 		{

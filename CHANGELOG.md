@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.5.0
+
+### Modest Color Update
+
+Syntax colors are a little bit vivid, so use more modest colors.
+
+- Modest variable, function colors
+- Style: `variable.other.constant`, `punctuation.definition`
+- Lighter `list.focusBackground` color
+
 ## v0.4.0
 
 - Add theme icon
