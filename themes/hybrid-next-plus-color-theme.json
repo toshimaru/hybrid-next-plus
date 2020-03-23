@@ -64,7 +64,6 @@
 		{
 			"name": "Variable and parameter name",
 			"scope": [
-				"support.function",
 				"variable",
 			],
 			"settings": {
@@ -180,11 +179,13 @@
 			}
 		},
 		{
-			"name": "Function",
+			"name": "Function, Language methods",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
+				"support.function",
 				"variable.function",
+				"variable.language",
 			],
 			"settings": {
 				"foreground": "#F0C674"
@@ -274,15 +275,6 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Language methods",
-			"scope": [
-				"variable.language"
-			],
-			"settings": {
-				"foreground": "#81a2be"
 			}
 		},
 		{
