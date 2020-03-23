@@ -136,6 +136,14 @@
 			}
 		},
 		{
+			"scope": [
+				"variable.other.constant",
+			],
+			"settings": {
+				"foreground": "#F0C674"
+			}
+		},
+		{
 			"name": "Tag, Operator",
 			"scope": [
 				"entity.name.tag",
