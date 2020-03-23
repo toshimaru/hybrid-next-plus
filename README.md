@@ -25,13 +25,13 @@ Hybrid Next Plus Theme for VS Code.
 | red | ![#cc6666](https://placehold.it/15/cc6666/000000?text=+) `#cc6666` |
 | purple | ![#b294bb](https://placehold.it/15/b294bb/000000?text=+) `#b294bb`|
 
-## Inspired Color Themes
+## Inspired Themes
 
-### UI Color Theme
+### UI Theme
 
 - [Atom One Dark](https://atom.io/themes/one-dark-ui) 
 
-### Syntax Color Theme
+### Syntax Theme
 
 - [vim-hybrid](https://github.com/w0ng/vim-hybrid)
 - [atom-hybrid-next](https://github.com/kaicataldo/hybrid-next-syntax)
