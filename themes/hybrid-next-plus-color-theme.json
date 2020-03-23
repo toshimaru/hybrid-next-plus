@@ -79,14 +79,16 @@
 			"scope": [
 				"meta.template.expression",
 				"punctuation.accessor",
-				"punctuation.definition.array",
-				"punctuation.definition.block",
-				"punctuation.definition.function-parameters",
-				"punctuation.definition.method-parameters",
-				"punctuation.definition.parameters",
-				"punctuation.definition.variable",
+				"punctuation.definition",
 				"punctuation.section",
 				"punctuation.separator",
+				// "punctuation.definition.dictionary",
+				// "punctuation.definition.array",
+				// "punctuation.definition.block",
+				// "punctuation.definition.function-parameters",
+				// "punctuation.definition.method-parameters",
+				// "punctuation.definition.parameters",
+				// "punctuation.definition.variable",
 			],
 			"settings": {
 				"foreground": "#C5C8C6"
