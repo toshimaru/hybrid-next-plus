@@ -62,17 +62,9 @@
 			}
 		},
 		{
-			"name": "Variable and parameter name",
+			"name": "Variable, Function Argument",
 			"scope": [
 				"variable",
-			],
-			"settings": {
-				"foreground": "#81a2be"
-			}
-		},
-		{
-			"name": "Function Argument",
-			"scope": [
 				"entity.name.variable",
 				"meta.definition.variable.name",
 				"support.variable",
