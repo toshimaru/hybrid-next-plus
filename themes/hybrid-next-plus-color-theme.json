@@ -453,19 +453,11 @@
 		{
 			"name": "Markdown - Link",
 			"scope": [
-				"string.other.link.title.markdown"
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown",
 			],
 			"settings": {
 				"foreground": "#b5bd68"
-			}
-		},
-		{
-			"name": "Markdown - Link Description",
-			"scope": [
-				"string.other.link.description.title.markdown"
-			],
-			"settings": {
-				"foreground": "#81a2be"
 			}
 		},
 		{
