@@ -94,7 +94,7 @@
 			}
 		},
 		{
-			"name": "Punctuation",
+			"name": "Punctuation variable",
 			"scope": [
 				"punctuation.definition.variable",
 			],
@@ -202,10 +202,8 @@
 			}
 		},
 		{
-			"name": "Block Level Variables, Other Variable, String Link",
+			"name": "String Link",
 			"scope": [
-				"meta.block variable.other",
-				"support.other.variable",
 				"string.other.link",
 			],
 			"settings": {
