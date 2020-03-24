@@ -88,10 +88,18 @@
 				// "punctuation.definition.function-parameters",
 				// "punctuation.definition.method-parameters",
 				// "punctuation.definition.parameters",
-				// "punctuation.definition.variable",
 			],
 			"settings": {
 				"foreground": "#C5C8C6"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.definition.variable",
+			],
+			"settings": {
+				"foreground": "#cc6666"
 			}
 		},
 		{
