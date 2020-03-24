@@ -1,8 +1,15 @@
 # Changelog
 
+## v0.5.1
+
+- Remove: `meta.block variable.other`, `support.other.variable`
+- Style: `punctuation.definition.variable`
+- Style: `string.other.link.description.markdown`
+- Change `markup.inline.raw`, `entity.name.section.markdown` color
+
 ## v0.5.0
 
-### Modest Color Update
+### Less vivid, more modest style
 
 Syntax colors are a little bit vivid, so use more modest colors.
 

@@ -88,10 +88,18 @@
 				// "punctuation.definition.function-parameters",
 				// "punctuation.definition.method-parameters",
 				// "punctuation.definition.parameters",
-				// "punctuation.definition.variable",
 			],
 			"settings": {
 				"foreground": "#C5C8C6"
+			}
+		},
+		{
+			"name": "Punctuation variable",
+			"scope": [
+				"punctuation.definition.variable",
+			],
+			"settings": {
+				"foreground": "#cc6666"
 			}
 		},
 		{
@@ -194,10 +202,8 @@
 			}
 		},
 		{
-			"name": "Block Level Variables, Other Variable, String Link",
+			"name": "String Link",
 			"scope": [
-				"meta.block variable.other",
-				"support.other.variable",
 				"string.other.link",
 			],
 			"settings": {
@@ -352,14 +358,14 @@
 				"markup.inline.raw"
 			],
 			"settings": {
-				"foreground": "#81a2be"
+				"foreground": "#b294bb"
 			}
 		},
 		{
 			"name": "Markdown Heading",
 			"scope": "entity.name.section.markdown",
 			"settings": {
-				"foreground": "#de935f"
+				"foreground": "#f0c674"
 			}
 		},
 		{
@@ -447,19 +453,11 @@
 		{
 			"name": "Markdown - Link",
 			"scope": [
-				"string.other.link.title.markdown"
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown",
 			],
 			"settings": {
 				"foreground": "#b5bd68"
-			}
-		},
-		{
-			"name": "Markdown - Link Description",
-			"scope": [
-				"string.other.link.description.title.markdown"
-			],
-			"settings": {
-				"foreground": "#81a2be"
 			}
 		},
 		{
