@@ -365,7 +365,7 @@
 			"name": "Markdown Heading",
 			"scope": "entity.name.section.markdown",
 			"settings": {
-				"foreground": "#de935f"
+				"foreground": "#f0c674"
 			}
 		},
 		{
