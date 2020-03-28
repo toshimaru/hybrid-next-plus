@@ -10,7 +10,9 @@ Hybrid Next Plus Theme for VS Code.
 
 ![screenshot 1](images/hybrid.png)
 
-![screenshot 2](images/hybrid-with-palette.png)
+## Sidebar & Command Palette
+
+![screenshot 2](images/sidebar.png)
 
 ## Colors
 
