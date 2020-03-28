@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.5.2
+
+- Update screenshots
+- Style: `keyword.operator`
+
 ## v0.5.1
 
 - Remove: `meta.block variable.other`, `support.other.variable`
