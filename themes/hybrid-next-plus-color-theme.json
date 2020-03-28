@@ -112,26 +112,6 @@
 			}
 		},
 		{
-			"name": "Invalid",
-			"scope": [
-				"invalid",
-				"invalid.illegal"
-			],
-			"settings": {
-				"foreground": "#FF5370"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": [
-				"keyword",
-				"storage.modifier"
-			],
-			"settings": {
-				"foreground": "#c5c8c6"
-			}
-		},
-		{
 			"name": "Keyword, Type",
 			"scope": [
 				"constant.other.color",
@@ -139,10 +119,21 @@
 				"keyword.other.special-method",
 				"keyword.other.substitution",
 				"keyword.other.template",
+				"keyword",
 				"storage.type",
 			],
 			"settings": {
 				"foreground": "#b294bb"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"keyword.operator",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#c5c8c6"
 			}
 		},
 		{
@@ -537,6 +528,16 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF5370"
 			}
 		},
 		{
