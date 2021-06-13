@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0
+
+- doc: README Update
+
 ## v0.5.2
 
 - Update screenshots
