@@ -43,4 +43,6 @@ Hybrid Next Plus Theme for VS Code.
 
 ## Reference
 
-[Theme Color | Visual Studio Code Extension API](https://code.visualstudio.com/api/references/theme-color)
+- [Theme Color | Visual Studio Code Extension API](https://code.visualstudio.com/api/references/theme-color)
+- [Visual Studio Code Themes](https://code.visualstudio.com/docs/getstarted/themes)
+- [How to Create a Custom VS Code Theme (2020) - YouTube](https://www.youtube.com/watch?v=QCqWzb-9Sy8)
