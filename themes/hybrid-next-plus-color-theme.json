@@ -33,7 +33,7 @@
 		"list.dropBackground": "#4796c2",
 		"list.focusBackground": "#4796c266",
 		"list.focusForeground": "#d5dde1",
-		"list.highlightForeground": "#4796c2",
+		"list.highlightForeground": "#ffffff",
 		"list.inactiveSelectionBackground": "#344149",
 		"minimap.findMatchHighlight": "#c5c8c666",
 		"panel.background": "#1d2428",
@@ -82,12 +82,6 @@
 				"punctuation.definition",
 				"punctuation.section",
 				"punctuation.separator",
-				// "punctuation.definition.dictionary",
-				// "punctuation.definition.array",
-				// "punctuation.definition.block",
-				// "punctuation.definition.function-parameters",
-				// "punctuation.definition.method-parameters",
-				// "punctuation.definition.parameters",
 			],
 			"settings": {
 				"foreground": "#C5C8C6"
@@ -561,7 +555,7 @@
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#b267e6"
+				"foreground": "#b294bb"
 			}
 		},
 		{

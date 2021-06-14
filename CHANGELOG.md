@@ -3,6 +3,7 @@
 ## v1.0.0
 
 - doc: README Update
+- Set `list.highlightForeground`
 
 ## v0.5.2
 
