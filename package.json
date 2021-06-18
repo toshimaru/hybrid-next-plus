@@ -2,7 +2,7 @@
     "name": "hybrid-next-plus",
     "displayName": "Hybrid Next Plus",
     "description": "Hybrid Next Plus Theme for VS Code.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "toshimaru",
     "engines": {
         "vscode": "^1.25.0"

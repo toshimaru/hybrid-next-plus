@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1
+
+- Modify `statusBar.background`
+
 ## v1.0.0
 
 - doc: README Update
